@@ -1,0 +1,12 @@
+{
+  "name": "toko-online",
+  "version": "1.0.0",
+  "description": "Aplikasi toko online dengan penyimpanan produk di memori",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
