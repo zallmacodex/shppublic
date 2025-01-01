@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Admin Produk</h1>
+        <form id="productForm">
+            <label for="imageUrl">URL Image Produk:</label>
+            <input type="text" id="imageUrl" placeholder="Masukkan URL gambar produk" required>
+
+            <label for="productName">Nama Produk:</label>
+            <input type="text" id="productName" placeholder="Masukkan nama produk" required>
+
+            <label for="productPrice">Harga Produk:</label>
+            <input type="number" id="productPrice" placeholder="Masukkan harga produk" required>
+
+            <button type="submit">Tambah Produk</button>
+        </form>
+
+        <h2>Produk yang tersedia:</h2>
+        <div id="productList"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
